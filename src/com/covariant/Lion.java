@@ -3,7 +3,7 @@ package com.covariant;
 public class Lion extends Animal{
 
 	public Lion roar() {
-		System.out.println("Lion is roaring");
+		System.out.println("Lion is not roaring");
 		return new Lion();
 	}
 }
